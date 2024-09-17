@@ -1,0 +1,60 @@
+.students-container {
+    width:80vw;
+    margin: auto;
+    margin-left:20px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size:20px;
+  }
+  .student_heading{
+    font-size:17px;
+  }
+  .class-group {
+    margin-bottom: 30px;
+    font-weight:600;
+  }
+  
+  .class-group h2 {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .students-table {
+    width: 100%;
+    /* border-collapse: collapse; */
+  }
+  
+  .students-table th, .students-table td {
+    padding: 12px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  .students-table th {
+    background-color:#54abe9;
+    font-weight: bold;
+    color: white;
+    font-weight:600;
+  }
+
+  
+  .students-table tr {
+    transition: background-color 0.2s ease
+  }
+  
+  .students-table tr:hover {
+    background-color: #052659;
+    color:white;
+    font-weight:600;
+  }
+  
+  .students-table td {
+    padding: 10px;
+  }
+  

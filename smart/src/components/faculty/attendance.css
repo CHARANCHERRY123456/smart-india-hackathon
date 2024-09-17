@@ -1,0 +1,41 @@
+/* AttendanceBarGraph.css */
+
+/* Style the container for the chart */
+.chart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add hover effect to the chart container */
+  .chart-container:hover {
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  /* Style the bar chart itself */
+  .bar-chart {
+    height: 400px;
+  }
+  
+  /* Center the heading */
+  .chart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    width:50vw;
+    margin-left:30px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Add hover effects to the bars in the chart */
+  .canvasjs-chart-bar:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  

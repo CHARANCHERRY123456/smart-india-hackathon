@@ -1,0 +1,84 @@
+.classroom-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-left: 0px;;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* transition: background 0.5s ease-in-out; */
+  margin-left: 50px;;
+}
+
+.classroom-details h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.classroom-table {
+  width: 80%;
+  border-collapse: collapse;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.classroom-table th,
+.classroom-table td {
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.classroom-table th {
+  background-color: #ff6384;
+  color: white;
+  font-weight: bold;
+}
+
+.classroom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.classroom-table tr:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.classroom-table td {
+  background-color: #fff;
+}
+
+.classroom-table td:hover {
+  background-color: #36a2eb;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
