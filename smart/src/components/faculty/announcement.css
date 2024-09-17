@@ -1,0 +1,92 @@
+.announcement-container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white !important;
+    background-color:  #052659;
+    margin-bottom: 20px;text-align: center;
+    border-radius:15px;
+
+    padding:10px;
+  }
+  
+  .announcement-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .announcement-form input, .announcement-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .announcement-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .announcement-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .announcement-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .announcement-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .announcement-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .announcement-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .comments-section {
+    margin-top: 15px;
+  }
+  
+  .comments-section input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  
+  .comments-section button {
+    padding: 8px;
+    margin-left: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .comments-section button:hover {
+    background-color: #005f75;
+  }
+  

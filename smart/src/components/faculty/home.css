@@ -1,0 +1,37 @@
+.admin_sidebar a {
+    color:white;
+    margin:10px;
+    margin-bottom: 20px;
+    font-size:20px;
+    padding:10px;
+    text-decoration: none;
+}
+.admin_sidebar{
+    width: 20vw;
+}
+.dash_heading{
+    color:white;
+    background-color: #0f1e52;
+    padding:10px;
+    border-radius:15px;
+    text-align: center;
+}
+.admin_sidebar a:hover{
+    background-color:  #57ADBF;
+    padding:10px;
+    border-radius:6px;
+}
+.admin_sidebar h3{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.admin_sidebar{
+    padding:10px;
+    height:100vh;
+}
+.home-tab{
+    overflow-y: auto;
+}
+i{
+    padding:10px;
+}

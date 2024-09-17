@@ -1,0 +1,40 @@
+/* Container for the whole attendance summary */
+.attendance-display {
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+.attendance-display h1{
+    color:white;
+    font-weight:500;
+    font-size:28px;
+    background-color: #052659;
+    border-radius:15px ;
+    padding:10px;
+    margin-left: 20px;;
+}
+/* Individual student chart container */
+.student-attendance-chart {
+    margin-bottom: 50px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 40px;
+    font-size: 18px !important;
+    color: #333;
+}
+
+/* Subheading (student name) styling */
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Bar chart styling */
+.chartjs-render-monitor {
+    max-width: 100%;
+    height: auto;
+}

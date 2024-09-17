@@ -1,0 +1,61 @@
+/* StudentDetailsTable.css */
+
+/* Container styling */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width:60vw;
+    margin-left:30px;
+  }
+  
+  /* Center the heading */
+  .table-container h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  .student-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Styling for the table headers */
+  .student-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
+  }
+  
+  /* Styling for table rows and columns */
+  .student-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Add hover effect for rows */
+  .student-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styling for odd and even rows for better visibility */
+  .student-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .student-table tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  

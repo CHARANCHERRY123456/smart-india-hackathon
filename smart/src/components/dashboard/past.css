@@ -1,0 +1,81 @@
+/* Background Animation */
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  
+  .class-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    width:100%;
+    animation: backgroundAnimation 15s ease infinite;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .class-schedule h2,h3{
+    font-size:17px !important;
+    font-weight: 700;
+    color:#052659;
+  }
+  .day-schedule {
+    margin-bottom: 30px;
+    margin:30px;
+    max-width: 800px;
+     background: linear-gradient(135deg, #f5f5f5, #e0f7fa);
+     padding:20px;
+     margin: 10px;;
+     width:300px;
+     height:250px;
+  }
+  .past{
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+    padding:10px;
+    border-radius:15px;
+    text-align: center;
+    background-color: #052659;
+    margin:10px;
+  }
+  .session {
+    margin-bottom: 20px;
+  }
+  
+  .morning-session, .afternoon-session {
+    margin-bottom: 10px;
+  }
+  
+  .class-period {
+    padding: 4px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .class-period:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .class-subject {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .lab-period {
+    background-color: #e0f7fa;
+  }
+  
+  .leisure-period {
+    background-color: #f1f8e9;
+    font-style: italic;
+  }
+  
